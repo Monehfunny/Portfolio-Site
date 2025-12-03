@@ -59,9 +59,18 @@
                 margin-bottom: 10px;
             }
 
+            .Container::-webkit-scrollbar {
+                display: none;
+            }
+
+            .Project::-webkit-scrollbar {
+                display: none;
+            }
+
             /* Main Assets / Common */
             .Container {
                 text-align: center;
+                scrollbar-width: none;
 
                 padding-top: 140px;
                 padding-bottom: 180px;
@@ -123,7 +132,8 @@
 
             .Project {
                 border: 2px solid rgb(255,255,255, 0.15);
-
+                scrollbar-width: none;
+                
                 padding: 20px;
                 background: rgb(12, 12, 12);
 
