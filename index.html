@@ -1,0 +1,374 @@
+<!-- Made by Moneyfunny / @Monehfunny for myself :] -->
+<!DOCTYPE html>
+
+<html lang = "en">
+    <!-- HEADER / TAB -->
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+        <!-- Setting up -->
+        <title> Moneyfunny's Portfolio | Homepage </title>
+
+        <!-- Grabbing / Variables -->
+        <link href = "https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600&display=swap" rel = "stylesheet">
+
+        <!-- CSS Styling -->
+         <style>
+            /* Top Page / Topbar */
+            .Title {
+                font-size: 48px;
+                letter-spacing: 4px;
+            }
+
+            /* Main Page / Body */
+            body {
+                margin: 0px;
+                font-family: "Oxanium", sans-serif;
+
+                background: rgb(12, 12, 12);
+                color: rgb(255, 255, 255);
+            }
+
+            section {
+                padding: 120px 12vw;
+
+                animation: Fade-In 1.6s ease forwards;
+                opacity: 0;
+            }
+
+            .Project img {
+                object-fit: cover;
+                
+                width: 100%;
+                height: 160px;
+
+                margin-bottom: 10px;
+            }
+
+            .Group img {
+                object-fit: cover;
+                position: absolute;
+
+                right: 285px;
+                bottom: 175px;
+                
+                width: 50px;
+                height: 50px;
+
+                margin-bottom: 10px;
+            }
+
+            /* Main Assets / Common */
+            .Container {
+                text-align: center;
+
+                padding-top: 140px;
+                padding-bottom: 180px;
+
+                animation: Fade-In 1.6s ease forwards;
+                opacity: 0;
+            }
+
+            .Text {
+                font-size: 18px;
+                line-height: 28px;
+
+                color: rgb(255, 255, 255);
+            }
+
+            .Header1 {
+                font-size: 32px;
+                font-weight: bold;
+
+                letter-spacing: 2px;
+                margin-bottom: 20px;
+            }
+
+            .Header2 {
+                font-size: 24px;
+                font-weight: normal;
+
+                letter-spacing: 1.5px;
+                margin-bottom: 20px;
+            }
+            
+            .GroupShowcase {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, 300px);
+
+                gap: 70px;
+                padding: 20px;
+            }
+
+            .Group {
+                border: 2px solid rgb(255,255,255, 0.15);
+
+                padding: 20px;
+                background: rgb(12, 12, 12);
+
+                width: 300px;
+                height: 200px;
+
+                backdrop-filter: blur(5px);
+            }
+
+            .ProjectShowcase {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, 300px);
+
+                gap: 70px;
+                padding: 20px;
+            }
+
+            .Project {
+                border: 2px solid rgb(255,255,255, 0.15);
+
+                padding: 20px;
+                background: rgb(12, 12, 12);
+
+                width: 300px;
+                height: 600px;
+
+                overflow-y: auto;
+                backdrop-filter: blur(5px);
+            }
+
+            
+            /* Extra Assets / Uncommon */
+            .Hazard {
+                margin: 5px auto 10px auto;
+                opacity: 0.8;
+
+                width: 308px;
+                height: 10px;
+
+                background: repeating-linear-gradient(
+                    45deg,
+
+                    rgb(255, 213, 61),
+                    rgb(255, 213, 61) 12px,
+                    rgb(0 0 0) 12px,
+                    rgb(0 0 0) 24px
+                );
+            }
+
+            .Skill-Subtitle {
+                margin-top: 10px;
+
+                font-size: 18px;
+                letter-spacing: 2px;
+
+                color: rgb(255, 255, 255)
+            }
+
+            /* Animations / Transitions */
+            @keyframes Fade-In {
+                from {opacity: 0; transform: translateY(-5px);}
+                to   {opacity: 1; transform: translateY(0);}
+            }
+         </style>
+    </head>
+    
+    <!-- MAIN SITE / WEB-PAGE -->
+    <body>
+        <!-- Top-Page / Simple Info -->
+        <div class = "Container">
+            <div class = "Title"> Moneyfunny </div>
+            <div class = "Hazard"></div>
+
+            <div class = "Skill-Subtitle"> Scripting • Programming </div>
+            <div class = "Header1" style = "margin-top: 50px;"> Commisions : Closed </div>
+        </div>
+
+        <!-- About Me Section -->
+        <section style = "background: rgb(15, 15, 15)">
+            <div class = "Header1"> About Me </div>
+
+            <div class = "Text">
+                <p> Howdy! I am <b> Moneyfunny </b>. I am a Game Developer who's passionate about
+                Scripting / Programming. I love Indie Games, and aspire to make my own Indie
+                Studio one day. </p>
+                
+                <p> I am <b> Canadian </B> (yes, i love Maple Syrup), I am also <b> 15 Years old. </b> </p>
+
+                <p> Some of my <b> Favourite Games </b> are:
+                Bonelab (portfolio inspired by :P), Mortal Kombat 1, Roblox, Rust, Lethal Company, PEAK, Repo, Battlefield 6,
+                The Dying Light Franchise, Kinito Pet, and a whole lot more. </p>
+
+                <p> Some of my <b> Favourite Shows / Movies </b> are:
+                Peacemaker, The Boys, Invincible, Big Hero 6 (best movie ever), IT: Welcome to Derry,
+                and again, a lot more. </p>
+            </div>
+
+            <div class = "Hazard" style = "width: 250px; margin: 40px auto;"></div>
+        </section>
+
+        <!-- My Skills Section-->
+        <section>
+            <div class = "Header1"> My Skills </div>
+
+            <div class = "Text">
+                <p> <b> Luau </b> is my most Proficient Language, it is what 
+                Roblox uses, and that is where i started. </p>
+
+                <p> <b> HTML / CSS </b> are my Second most Proficient Language(s). </p>
+                
+                <p> <b> Python </b> is my Third most Proficient Language, thanks to the
+                very similar syntax to Luau </p>
+
+                <p> <b> C# </b> is my Fourth most Proficient Language, and it's my Favourite,
+                since i would like to move to Unity one day. </p>
+            </div>
+
+            <div class = "Hazard" style = "width: 250px; margin: 40px auto;"></div>
+        </section>
+
+        <!-- Groups Section -->
+        <section style = "background: rgb(15, 15, 15)">
+            <div class = "Header1"> Groups i Work for </div>
+
+            <div class = "GroupShowcase">
+                <div class = "Group">
+                    <img src = "https://i.ibb.co/qFYfP8G2/Esc-Studios-Logo-Transparent-1.png", alt = "Failed" style = "width: 33px; height: 43px;">
+                    <div class = "Header2" style = "font-weight: bold; left: 65px; top: 10px; position: absolute"> ESCAPE STUDIOS </div>
+                    
+                    <div class = "Text" style = "top: 55px; position: absolute;">
+                        I am a <b> Co-Founder </b> of Escape Studios, but also a Developer.
+                        I am the only Scripter / Programmer on the team.
+                    </div>
+                </div>
+
+                <div class = "Group">
+                    <img src = "https://i.ibb.co/8gzsdBvC/PG-New-logo-2025-yes-Kreslici-platno-1-kopie-5.png", alt = "Failed">
+                    <div class = "Header2" style = "font-weight: bold; left: 65px; top: 10px; position: absolute"> PER GAMES </div>
+                    
+                    <div class = "Text" style = "top: 55px; position: absolute;">
+                        I am a <b> Developer </b> for Per Games, specifically a Scripter / Programmer
+                    </div>
+                </div>
+            </div>
+
+            <div class = "Hazard" style = "width: 250px; margin: 40px auto;"></div>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <div class = "Header1" style = "margin-bottom: -4px;"> My Projects / Games </div>
+            <div class = "Text" style = "margin-bottom: 30px;"> [Things that i have worked on] </div>
+
+            <div class = "ProjectShowcase">
+                <div class = "Project">
+                    <div class = "Header1" style = "margin-bottom: 0px;"> <b> ALTERED STATE </b> </div>
+                    <div class = "Text" style = "font-size: 22px;"> by <b> Escape Studios </b> </div>
+                    <div class = "Text" style = "margin-bottom: 30px; font-size: 15px;"> [Coming Q4 2025 - Q1 2026] </div>
+                    
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Missing-image-232x150.png" alt = "Project Image Failed">
+
+                    <div class = "Text">
+                        <p> <b> Altered State </b> is a Roblox Mandela Catalogue inspired game, it plays out very similary to FNAF (Five Nights at Freddy's). </p>
+
+                        <p> The Player(s) will have to watch over a house throughout the night, using security cameras, windows, and flashlights to their survival. 
+                        There is different types of alternates, and they can break it in through windows, doors, etc... To prevent an alternate you have to shut the windows
+                        and hold it until they go away (similar to doors in FNAF 4). </p>
+
+                        <p> <b> My Role: </b> Scripter / Programmer </p>
+                    </div>
+                </div>
+
+                <div class = "Project">
+                    <div class = "Header1" style = "margin-bottom: 0px;"> <b> LIMINALITY </b> </div>
+                    <div class = "Text" style = "font-size: 22px;"> by <b> Escape Studios </b> </div>
+                    <div class = "Text" style = "margin-bottom: 30px; font-size: 15px;"> [Not Started] </div>
+                    
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Missing-image-232x150.png" alt = "Project Image Failed">
+
+                    <div class = "Text">
+                        <p> <b> Liminality </b> is a Roblox Backrooms Exploration game, with unique mechanics. But we are still figuring things out with this one. </p>
+
+                        <p> <b> My Role: </b> Scripter / Programmer </p>
+                    </div>
+                </div>
+
+                <div class = "Project">
+                    <div class = "Header1" style = "margin-bottom: 0px;"> <b> TPC </b> </div>
+                    <div class = "Text" style = "font-size: 22px;"> by <b> Leo / Leodev </b> </div>
+                    <div class = "Text" style = "margin-bottom: 30px; font-size: 15px;"> [TBD] </div>
+                    
+                    <img src = "https://i.ibb.co/qYWd9KmR/G0hoq-Mv-WYAA5p-R3-1.png" alt = "Project Image Failed">
+
+                    <div class = "Text">
+                        <p> <b> Termination Protocol </b> is a Roblox FPS that uses ARGs as the characters. It is very
+                        popular and has an amazing community. The game is also very unique and i really like the idea. I have
+                        worked on it, and i am still a developer. </p>
+
+                        <p> <b> My Role: </b> Scripter / Programmer </p>
+                    </div>
+                </div>
+
+                <div class = "Project">
+                    <div class = "Header1" style = "margin-bottom: 0px;"> <b> THE APOCALYPSE </b> </div>
+                    <div class = "Text" style = "font-size: 22px;"> by <b> Per Games </b> </div>
+                    <div class = "Text" style = "margin-bottom: 30px; font-size: 15px;"> [Already out] </div>
+                    
+                    <img src = "https://tr.rbxcdn.com/180DAY-7a7ae3781f8cba82a30356a2ba4aa18c/768/432/Image/Webp/noFilter " alt = "Project Image Failed">
+
+                    <div class = "Text">
+                        <p> <b> The Apocalypse </b> is a Roblox survival game that plays out very
+                        similarly to Rust, except it is during the Zombie Apocalypse.
+                        So kind of like DayZ. But the Apocalypse has unique mechanics and features
+                        and is enjoyable to play with friends. </p>
+
+                        <p> <b> My Role: </b> Scripter / Programmer </p>
+                    </div>
+                </div>
+
+                <div class = "Project">
+                    <div class = "Header1" style = "margin-bottom: 0px;"> <b> OUTPOSTS </b> </div>
+                    <div class = "Text" style = "font-size: 22px;"> by <b> Myself </b> </div>
+                    <div class = "Text" style = "margin-bottom: 30px; font-size: 15px;"> [Not Started] </div>
+                    
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Missing-image-232x150.png" alt = "Project Image Failed">
+
+                    <div class = "Text">
+                        <p> <b> Outposts </b> (name unconfirmed) will be a game made by me, on Unity.
+                        it'll be kind-of friend slop. You and your friends will all have a Watch Tower across
+                        a map, in a forest surronded by mountains. And during the day is when you will have to collec resources.
+                        You can upgrade your watch towers, make items, etc... And night is when monsters come out, so you have to 
+                        defend and watch out for each other. </p>
+
+                        <p> <b> My Role: </b> Mostly Everything </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "Hazard" style = "width: 250px; margin: 40px auto;"></div>
+        </section>
+
+        <!-- Groups Section -->
+         <section style = "background: rgb(15, 15, 15)">
+            <div class = "Header1" style = "margin-bottom: -4px;"> Work Showcase </div>
+            <div class = "Text" style = "margin-bottom: 30px;"> [Soon] </div>
+
+            <div class = "Hazard" style = "width: 250px; margin: 40px auto;"></div>
+         </section>
+
+        <!-- Bottom / End-Page Section -->
+         <section>
+            <div class = "Header2"> Links / Accounts [Soon] </div>
+
+            <div class = "Text">
+                <p> <b> X / Twitter </b></p>
+                <p> <b> YouTube </b></p>
+                <p> <b> TikTok </b></p>
+
+                <p> <b> Discord </b></p>
+            </div>
+         </section>
+    </body>
+    
+    <!-- SITE FUNTIONALITY -->
+    <script>
+    
+    </script>
+</html>
